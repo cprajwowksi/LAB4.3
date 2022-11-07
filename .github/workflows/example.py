@@ -1,6 +1,6 @@
 
 def main():
-  print("Hello from Github Actions!")
+  print("Hellow from Github Actions!")
 
 
 if __name__ == '__main__':

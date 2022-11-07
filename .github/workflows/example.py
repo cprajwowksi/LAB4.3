@@ -1,9 +1,13 @@
 import unittest
-
+import dotesta
 class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
+    
+    def test_suma3(self):
+        result = suma3.add(10, 2, 3)
+        self.assertEqual(result, 15)
 
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())

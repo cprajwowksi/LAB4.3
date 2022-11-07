@@ -9,7 +9,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual('foo'.upper(), 'FOO')
     
     def test_suma3(self):
-        result = suma3.add(10, 2, 3)
+        result = suma3(10, 2, 3)
         self.assertEqual(result, 15)
 
     def test_isupper(self):
